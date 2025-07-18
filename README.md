@@ -54,3 +54,75 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
+Backend will run at:
+👉 http://127.0.0.1:8000/
+
+🌐 Frontend Setup (React.js)
+Step 1: Navigate to Frontend
+```bash
+
+cd frontend
+npm install
+```
+Step 2: Start the React Dev Server
+
+```bash
+npm start
+```
+Frontend will run at:
+👉 http://localhost:3000/
+
+🔐 Authentication & Roles
+JWT-based login system
+
+Secure token storage
+
+Role-based rendering and route protection
+
+Admin panel access for moderators
+
+📚 Core Modules
+Module	Description
+Auth	JWT login, registration, and role assignment
+Zoom	Schedule/manage recurring meetings via Zoom API
+Groups	Create/join study groups with real-time updates
+Forums	Threaded discussions with report/moderation tools
+
+🧪 Testing & Evaluation
+  
+  ✅ Manual & automated testing for core features
+  📊 Performance tested under mock load
+  🔐 Secure token flow and database constraints validation
+  🧠 Usability tests with student testers (informal)
+  ✅ Key Wins
+  🔄 Smooth integration of third-party APIs (Zoom)
+  🔐 Secure and scalable auth architecture
+  💬 Collaborative tools built with real-world classroom needs in mind
+  📱 Fully responsive across devices
+  🧹 Stopping & Cleanup
+```bash
+# Stop servers
+CTRL + C  # for both Django and React
+# Deactivate virtual environment
+deactivate
+```
+🔥 Troubleshooting
+| Issue                | Solution                                                       |
+| -------------------- | -------------------------------------------------------------- |
+| Zoom API not working | Check credentials in `.env` and Zoom API rate limits           |
+| CORS errors          | Ensure `corsheaders` is installed and middleware is configured |
+| Login failing        | Verify JWT settings and user role assignments                  |
+| UI layout broken     | Check Bootstrap setup and screen responsiveness                |
+
+🧭 Future Improvements
+  
+  📆 Calendar view for upcoming Zoom sessions
+  📹 Video archive for recorded meetings
+  📌 Pinning threads and group announcements
+  🔔 Real-time notifications via WebSockets
+  📈 Analytics dashboard for tutors and admins
+
+💡 Thanks for checking out EvolvED!
+Feel free to fork, contribute, or reach out with questions.
+🚀 Built with passion for collaborative learning.
