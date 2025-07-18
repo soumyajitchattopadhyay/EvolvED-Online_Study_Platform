@@ -16,7 +16,8 @@ A full-stack educational platform enabling **tutors, students, and admins** to c
 
 ## 📌 Features
 
-- 🔐 **JWT-based Authentication**  
+- 🔐 **JWT-based Authentication**
+    
 - 🛂 **Role-Based Access Control (RBAC)** for Admins, Tutors, and Students  
 - 🎥 **Zoom Meeting Integration** for recurring session management  
 - 🗨️ **Study Groups & Forums** with moderation controls  
