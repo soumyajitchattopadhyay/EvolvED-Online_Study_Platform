@@ -28,14 +28,18 @@ A full-stack educational platform enabling **tutors, students, and admins** to c
 
 ## 📁 **Project Structure**
 ```
-evolved/
-├── backend/ # Django Backend Code
-├── frontend/ # React Frontend Code
-├── .env # Environment Variables
-├── .gitignore
-├── manage.py
-├── package.json
-└── README.md
+project-root/
+├── EvolvEDStudy/     # EvolvED platform main folder
+├── discussions/      # Discussions module
+├── frontend/         # React Frontend Code
+├── groups/           # Groups module
+├── meetings/         # Meetings module
+├── staticfiles/      # Static files (CSS, JS, images)
+├── users/            # User management module
+├── LICENSE           # License file
+├── README.md         # This README file
+├── manage.py         # Django management script
+└── requirements.txt  # Python dependencies
 ```
 ---
 
