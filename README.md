@@ -48,13 +48,12 @@ project-root/
 ### Step 1: Environment Setup
 
 ```bash
-cd backend
 python -m venv venv
 source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 ```
 ### Step 2: Apply Migrations & Run Server
-
+**Make sure your terminal is pointed at the root directory where `manage.py` is located before running these commands.**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
