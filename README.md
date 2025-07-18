@@ -119,13 +119,13 @@ deactivate
 | Login failing        | Verify JWT settings and user role assignments                  |
 | UI layout broken     | Check Bootstrap setup and screen responsiveness                |
 
-🧭 Future Improvements
-  
-  📆 Calendar view for upcoming Zoom sessions
-  📹 Video archive for recorded meetings
-  📌 Pinning threads and group announcements
-  🔔 Real-time notifications via WebSockets
-  📈 Analytics dashboard for tutors and admins
+🧭 **Future Improvements**
+
+- 📆 Calendar view for upcoming Zoom sessions  
+- 📹 Video archive for recorded meetings  
+- 📌 Pinning threads and group announcements  
+- 🔔 Real-time notifications via WebSockets  
+- 📈 Analytics dashboard for tutors and admins
 
 💡 Thanks for checking out EvolvED!
 Feel free to fork, contribute, or reach out with questions.
