@@ -90,20 +90,20 @@ Admin panel access for moderators
 | Groups          | Create/join study groups with real-time updates   |
 | Forums          | Threaded discussions with report/moderation tools |
 
-🧪 Testing & Evaluation
+🧪 **Testing & Evaluation**
 
-✅ Manual & automated testing for core features
-📊 Performance tested under mock load
-🔐 Secure token flow and database constraints validation
-🧠 Usability tests with student testers (informal)
+- ✅ Manual & automated testing for core features  
+- 📊 Performance tested under mock load  
+- 🔐 Secure token flow and database constraints validation  
+- 🧠 Usability tests with student testers (informal)  
 
-✅ Key Wins
+✅ **Key Wins**
 
-🔄 Smooth integration of third-party APIs (Zoom)
-🔐 Secure and scalable auth architecture
-💬 Collaborative tools built with real-world classroom needs in mind
-📱 Fully responsive across devices
-🧹 Stopping & Cleanup
+- 🔄 Smooth integration of third-party APIs (Zoom)  
+- 🔐 Secure and scalable auth architecture  
+- 💬 Collaborative tools built with real-world classroom needs in mind  
+- 📱 Fully responsive across devices  
+- 🧹 Stopping & Cleanup
 
 ```bash
 # Stop servers
