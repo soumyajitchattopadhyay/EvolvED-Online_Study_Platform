@@ -27,7 +27,7 @@ A full-stack educational platform enabling **tutors, students, and admins** to c
 ---
 
 ## 📁 **Project Structure**
-
+```
 evolved/
 ├── backend/ # Django Backend Code
 ├── frontend/ # React Frontend Code
@@ -36,7 +36,7 @@ evolved/
 ├── manage.py
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## ⚙️ **Backend Setup (Django)**
