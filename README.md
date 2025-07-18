@@ -83,25 +83,28 @@ Role-based rendering and route protection
 
 Admin panel access for moderators
 
-📚 Core Modules
-Module	Description
-Auth	JWT login, registration, and role assignment
-Zoom	Schedule/manage recurring meetings via Zoom API
-Groups	Create/join study groups with real-time updates
-Forums	Threaded discussions with report/moderation tools
+| 📚 Core Modules | Description                                       |
+| --------------- | ------------------------------------------------- |
+| Auth            | JWT login, registration, and role assignment      |
+| Zoom            | Schedule/manage recurring meetings via Zoom API   |
+| Groups          | Create/join study groups with real-time updates   |
+| Forums          | Threaded discussions with report/moderation tools |
 
 🧪 Testing & Evaluation
-  
-  ✅ Manual & automated testing for core features
-  📊 Performance tested under mock load
-  🔐 Secure token flow and database constraints validation
-  🧠 Usability tests with student testers (informal)
-  ✅ Key Wins
-  🔄 Smooth integration of third-party APIs (Zoom)
-  🔐 Secure and scalable auth architecture
-  💬 Collaborative tools built with real-world classroom needs in mind
-  📱 Fully responsive across devices
-  🧹 Stopping & Cleanup
+
+✅ Manual & automated testing for core features
+📊 Performance tested under mock load
+🔐 Secure token flow and database constraints validation
+🧠 Usability tests with student testers (informal)
+
+✅ Key Wins
+
+🔄 Smooth integration of third-party APIs (Zoom)
+🔐 Secure and scalable auth architecture
+💬 Collaborative tools built with real-world classroom needs in mind
+📱 Fully responsive across devices
+🧹 Stopping & Cleanup
+
 ```bash
 # Stop servers
 CTRL + C  # for both Django and React
