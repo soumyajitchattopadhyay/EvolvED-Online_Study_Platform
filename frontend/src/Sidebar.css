@@ -1,0 +1,82 @@
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #3E2723;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    padding: 12px 15px;
+    width: 100%;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.sidebar ul li a:hover {
+    background: #6D4C41;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
+.sidebar.closed {
+    width: 60px;
+}
+
+.sidebar.closed ul li a span {
+    display: none;
+}
+
+.sidebar.closed ul li a {
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 220px;
+    }
+
+    .sidebar.closed {
+        width: 50px;
+    }
+
+    .sidebar ul li a span {
+        display: none;
+    }
+}

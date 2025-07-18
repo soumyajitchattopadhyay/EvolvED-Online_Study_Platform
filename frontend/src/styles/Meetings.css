@@ -1,0 +1,245 @@
+.meetings-info-container {
+    margin-top: 20px;
+  }
+  
+  .meeting-card {
+    background-color: #d1aa8d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .meeting-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .meeting-card .fa-clock, .meeting-card .fa-check-circle {
+    margin-right: 5px;
+    color: green;
+  }
+  
+  .meetings-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#e5f4d7;
+  }
+  
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e6a54;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .schedule-btn {
+    background-color: #2f6f1f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-card {
+    background: #d1aa8d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .meeting-item {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styling */
+.footer {
+    width: 100%;
+    background-color: #7e6a54;
+    color: white;
+    text-align: right;
+    padding: 15px; 
+    bottom: 0;
+    left: 0;
+  }
+  .meeting-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-image {
+    width: 50%;
+    max-width: 400px;
+  }
+  /* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 80px 20px 20px;
+    text-align: center;
+    margin-left: 250px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  /* Meeting Cards Adjustments */
+  .meeting-card {
+    background: #d1aa8d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .meeting-card h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .meeting-card p {
+    margin: 5px 0;
+  }
+  
+  .confirmed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .pending {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Sidebar and Navbar Styles */
+  .sidebar ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #2f6f1f;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  /* Input Field */
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    flex-grow: 1;
+}
+
+/* Circular Search Icon Button */
+.search-bar button {
+    background-color: #2f6f1f; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 50%; /* Makes it Circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+  .schedule-btn {
+    background-color: #2f6f1f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Center the No Scheduled Meetings card */
+.no-meetings-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #c9a88d; /* Matching your theme */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Centering horizontally */
+    max-width: 300px; /* Limit width */
+}
+
+/* Style for the meeting buttons container */
+.meeting-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased spacing */
+    margin-top: 30px;
+}
+
+/* Button Styling */
+.view-btn, .join-btn, .reoccur-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+  /* Sidebar Toggle Button for Mobile */
+.sidebar-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    background-color: #8d6e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    display: none;
+    cursor: pointer;
+  }
+  
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+      position: fixed;
+      left: -225px;
+      height: 100%;
+    }
+    
+    .sidebar.collapsed {
+      left: 0;
+      width: 225px;
+    }
+    
+    .sidebar-toggle {
+      display: block;
+    }
+    
+    .main-content {
+      margin-left: 0;
+    }
+    
+    .group-actions {
+      flex-direction: column;
+    }
+  }
+

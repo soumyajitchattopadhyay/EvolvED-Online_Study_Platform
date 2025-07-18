@@ -1,0 +1,135 @@
+/* Main container */
+.discussion-container {
+  display: flex;
+}
+
+/* Sidebar (ensuring proper spacing) */
+.sidebar {
+  width: 250px;
+}
+
+/* Main content area */
+.discussion-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8fbff;
+}
+
+/* Header styling */
+.discussion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  border: 2px solid #7e6a54;
+  border-radius: 20px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  background: transparent;
+}
+
+/* Hover effect */
+.search-bar:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button to start new discussion */
+.start-discussion-btn {
+  background-color: #e67e22;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.start-discussion-btn:hover {
+  background-color: #d35400;
+}
+
+/* Discussion Cards */
+.discussion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.discussion-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.discussion-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Discussion title */
+.discussion-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Discussion metadata */
+.discussion-meta {
+  font-size: 14px;
+  color: #777;
+}
+
+/* View More button */
+.view-more-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .discussion-header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .search-bar {
+      width: 90%;
+      max-width: none;
+  }
+
+  .start-discussion-btn {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+  }
+}

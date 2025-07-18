@@ -1,0 +1,57 @@
+.settings-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Sidebar positioning */
+  .sidebar-left .sidebar {
+    left: 0;
+  }
+  
+ /* Global Sidebar Adjustments */
+.sidebar-left .sidebar {
+    left: 0;
+    right: auto;
+  }
+  
+  .sidebar-right .sidebar {
+    right: 0;
+    left: auto;
+  }
+  
+  /* Main Content Position Adjustments */
+  .sidebar-left .main-content {
+    margin-left: 250px;
+    margin-right: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar-right .main-content {
+    margin-right: 250px;
+    margin-left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #222 !important;
+    color: #fff !important;
+  }
+  
+  .dark-mode .settings-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Ensure form elements are visible in dark mode */
+  .dark-mode .form-label,
+  .dark-mode .form-check-label,
+  .dark-mode .form-select {
+    color: white;
+  }
+  
