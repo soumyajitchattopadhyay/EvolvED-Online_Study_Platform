@@ -42,6 +42,7 @@ A full-stack web application built to support virtual learning environments, ena
    python manage.py runserver
    
 2. **Frontend:**
+   ```bash
    cd frontend
    npm install
    npm start
